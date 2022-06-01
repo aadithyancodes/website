@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://bugswriter.com"
+base_url = "https://opensourcedev.me"
 generate_feed = true
 compile_sass = false
 default_language = "en"
