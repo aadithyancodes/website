@@ -1,5 +1,4 @@
 
-
 body {
 	color: beige ;
 	background: #111 ;
@@ -16,8 +15,21 @@ header h1 {
 	font-size: 40px ;
 }
 
+h2 {
+	text-align: left ;
+	color: deeppink ;
+	font-size: 24pt ;
+	border-bottom: dashed #ddd 1px ;
+	max-width: 500px ;
+	margin: 1em auto ;
+}
 
+h3 {
+    color: gold ;
+	clear: both ;
+}
 
-
-
+/* "a" is for links. */
+a {
+    color: lightblue ;
 }
