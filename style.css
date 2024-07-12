@@ -49,19 +49,7 @@ dt {
 /* code and pre are for formatting monospace text commands. Use code generally,
  * but pre is for separate code blocks. pre is also sensitive to whitespace,
  * unlike most of HTML. */
-code {
-	border-radius: 5px ;
-}
-pre {
-	background: #111222 ;
-	border: 1px solid lime ;
-	border-radius: 20px ;
-	padding: 1em ;
-	white-space: pre-wrap;
-	overflow-wrap: break-word ;
-	max-width: 600px ;
-	margin: auto ;
-}
+
 
 
 }
