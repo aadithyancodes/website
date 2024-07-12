@@ -1,5 +1,4 @@
-/* Since this site is about teaching web concepts, even this file is a learning
- * opportunity. */
+
 
 body {
 	color: beige ;
@@ -9,7 +8,7 @@ body {
 }
 
 h1 {
-	text-align: center ;
+	text-align: left ;
 	color: lightgreen ;
 }
 
@@ -18,7 +17,7 @@ header h1 {
 }
 
 h2 {
-	text-align: center ;
+	text-align: left ;
 	color: deeppink ;
 	font-size: 24pt ;
 	border-bottom: dashed #ddd 1px ;
