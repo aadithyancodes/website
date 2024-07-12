@@ -31,20 +31,6 @@ a {
     color: lightblue ;
 }
 
-/* The "hover" option, which can be used with pretty much anything, allows you
- * to set different settings if someone hovers over something with their mouse.
- * */
-a:hover {
-    color: white ;
-}
-
-dt {
-	font-weight: bold ;
-}
-
-/* code and pre are for formatting monospace text commands. Use code generally,
- * but pre is for separate code blocks. pre is also sensitive to whitespace,
- * unlike most of HTML. */
 
 
 
