@@ -1,1 +1,7 @@
-my personal website
+# My Personal Website!
+
+# languages used
+
+> html
+>css
+
