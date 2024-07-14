@@ -7,6 +7,6 @@
 
 ### Why you need a Personal website?
 
-1.Just Do it,Make one.
-2.You can do so many cool things with your website.
-3.Make your own digital identity.
+#### 1.Just Do it,Make one.
+#### 2.You can do so many cool things with your website.
+#### 3.Make your own digital identity.
