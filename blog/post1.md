@@ -4,10 +4,10 @@ This is my first blog post written in Markdown!
 
 ## What I’m Learning
 
-- HTML
-- CSS
+- JS
 - Full-stack development
 - Git + GitHub
 
 Stay tuned for more posts. ☕
 
+PS: This is just a beginning!!
