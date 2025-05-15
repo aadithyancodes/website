@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Post</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 800px; margin: auto; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div id="content">Loading...</div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+
+    if (file) {
+      fetch(file)
+        .then(res => res.text())
+        .then(md => {
+          document.getElementById("content").innerHTML = marked.parse(md);
+        })
+        .catch(() => {
+          document.getElementById("content").innerHTML = "Blog post not found.";
+        });
+    } else {
+      document.getElementById("content").innerHTML = "No blog file specified.";
+    }
+  </script>
+</body>
+</html>
+
